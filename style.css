@@ -1,0 +1,94 @@
+body {
+    font-family: Lalezar;
+    font-style:normal;
+    background-color: black;
+    color:white;
+}
+
+p {
+    display: block;
+    margin:0;
+}
+
+#navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:auto;
+}
+
+
+#Yash {
+    font-size: 48px;
+    position:relative;
+    display: flex;
+    align-items:center;
+    justify-content: start;
+}
+
+
+#About, #Projects, #Contact {
+    text-decoration: none;
+    color:white;
+    transition: 0.5s ease-in-out;
+    cursor:pointer;
+}
+
+#Contact {
+    background-color: rgba(255, 0, 26, 100%);
+    padding: 0 4px 0 4px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#Contact:hover {
+    background-color: rgba(255, 0, 26, 0.75);
+    text-decoration: underline;
+}
+
+#About:hover, #Projects:hover {
+    text-decoration: underline;
+}
+
+#rightnav {
+    display:flex;
+    gap:70px;
+    justify-content: space-between;
+    align-items: center;    
+    width: auto;    
+    font-size: 24px;
+}
+
+
+.nave {
+    margin-left:2px;
+    margin-right:2px;
+}
+
+/*-------------------------------------------------------------------*/
+#content {
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: start;
+    gap:10px;
+    margin-left:10%;
+    margin-top:121px;
+    /* background-color: rgb(196, 196, 196); */
+}
+
+.content#ImYash {
+    font-size:64px;
+    font-family: Lalezar;
+
+}
+
+#socials_div {
+    display:flex;
+    justify-content: space-between;
+    gap:5px;
+}
+
+.social-media {
+    height:35px;
+}
