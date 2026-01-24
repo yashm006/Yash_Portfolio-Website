@@ -27,7 +27,7 @@ p {
 }
 
 
-#About, #Projects, #Contact {
+.rightnave {
     text-decoration: none;
     color:white;
     transition: 0.5s ease-in-out;
@@ -46,7 +46,7 @@ p {
     text-decoration: underline;
 }
 
-#About:hover, #Projects:hover {
+#About:hover, #Projects:hover, #resume:hover {
     text-decoration: underline;
 }
 
